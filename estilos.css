@@ -13,5 +13,9 @@ h1,h2,h3 {
     text-decoration: underline;
 }
 .table{
-    color: aliceblue;
+    color: rgb(249, 121, 121);
+}
+#parrafo{
+    font-size: 40px;
+    color: chartreuse;
 }
