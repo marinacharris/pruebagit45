@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-3" >
+        <form class="row class g-3">
+            <!-- primera fila -->
+            <div class="col-md-3">
+                <label for="pnombre" class="form-label">Primer nombre</label>
+                <input type="text" class="form-control" id="pnombre" name="pnombre">
+            </div>
+            <div class="col-md-3">
+                <label for="snombre" class="form-label">Segundo nombre</label>
+                <input type="text" class="form-control" id="snombre" name="snombre">
+            </div>
+            <div class="col-md-3">
+                <label for="papellido" class="form-label">Primer apellido</label>
+                <input type="text" class="form-control" id="papellido" name="papellido">
+            </div>
+            <div class="col-md-3">
+                <label for="sapellido" class="form-label">Segundo apellido</label>
+                <input type="text" class="form-control" id="sapellido" name="sapellido">
+            </div>
+            <!-- segund< fila -->
+            <div class="col-md-6">
+                <label for="correo" class="form-label">Correo</label>
+                <input type="mail" class="form-control" id="correo" name="correo">
+            </div>
+            <div class="col-md-6">
+                <label for="clave" class="form-label">Clave</label>
+                <input type="password" class="form-control" id="clave" name="clave">
+            </div>
+            <!-- tercera fila -->
+            <div class="col-md-12">
+                <label for="dirección" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="direccion" name="direccion">
+            </div>
+            <!-- cuarta fila -->
+            <div class="col-md-5">
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad" name="ciudad">
+            </div>
+            <div class="col-md-5">
+                <label for="departamento" class="form-label">Despartamento</label>
+                <input type="text" class="form-control" id="departamento" name="departamento">
+            </div>
+            <div class="col-md-2">
+                <label for="estrato" class="form-label">Estrato</label>
+                <select name="estrato" id="estarto" class="form-select">
+                    <option selected>Elija una opción</option>
+                    <option value="1">Estrato 1</option>
+                    <option value="2">Estrato 2</option>
+                    <option value="3">Estrato 3</option>
+                    <option value="4">Estrato 4</option>
+                    <option value="5">Estrato 5</option>
+                    <option value="6">Estrato 6</option>
+                </select>
+            </div>
+            <!-- quinta fila -->
+            <div class="col-md-12">
+                <label for="comentarios" class="form-label">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" rows="5" class="form-control"></textarea>
+            </div>
+            <!-- sexta fila -->
+            <div class="col-md-12">
+                <input type="checkbox" name="condiciones" id="condiciones" class="form-check-input">
+                <label for="condiciones" class="form-label">Acepto términos y condiciones</label>
+            </div>
+            <!-- séptima fila -->
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary" id="boton">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
