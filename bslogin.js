@@ -1,4 +1,5 @@
-        const user = "marinaCh"
+// los eventos se colocan en las etiquetas de los elementos html
+const user = "marinaCh"
         const pw = 1234
         function verificar(){
             let usuario = document.getElementById("usuario").value

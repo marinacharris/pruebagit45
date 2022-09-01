@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="t1">titulo 1</h1>
+    <h2 id="t2">titulo 2</h2>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        let x = $(document)
+        x.ready(inicio)
+    
+        function inicio(){
+            let x = $("#t1")
+            x.click(metodo1)
+            x = $("#t2")
+            x.click(metodo2)
+        }
+        function metodo1() {
+            let x = $("#t1")
+            x.css("color", "green")
+            x.css("font-weight", "bold")
+            x.css("font-size", "20px")
+        }
+        function metodo2() {
+            let x = $("#t2")
+            x.css("color", "blue")
+            x.css("background-color", "gray")
+        }
+    </script>
+    
+</body>
+</html>
